@@ -1,4 +1,4 @@
-/* Reset */
+/* RESET */
 * {
     padding: 0px;
     margin: 0px;
@@ -8,14 +8,21 @@ body {
     background-color: #b91450;
 }
 .contenitore {
-    max-width: 992px;
+    max-width: 80%;
     margin: 0 auto;
+}
+.form-biglietto, .biglietto {
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
-.titolo {
-    margin: 20px 0px;
-    color: white;
-    text-align: center;
+
+.biglietto {
+    display: none;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.biglietto.aperto {
+    display: block;
 }
