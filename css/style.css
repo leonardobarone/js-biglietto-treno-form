@@ -4,3 +4,18 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body {
+    background-color: #b91450;
+}
+.contenitore {
+    max-width: 992px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.titolo {
+    margin: 20px 0px;
+    color: white;
+    text-align: center;
+}
