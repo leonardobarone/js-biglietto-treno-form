@@ -11,9 +11,16 @@ body {
     max-width: 80%;
     margin: 0 auto;
 }
+.form-biglietto-campi {
+    display: flex;
+    justify-content: space-around;
+}
+input, select {
+    display: block;
+}
 .form-biglietto, .biglietto {
     background-color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 

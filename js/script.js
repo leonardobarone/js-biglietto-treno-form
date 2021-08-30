@@ -10,12 +10,12 @@ bottoneGenera.addEventListener("click",
         var prezzo = km * 0.21;
         
     
-        if ( fascia == "minorenne" ){
-            prezzo = prezzo - prezzo * 0.2;
-            var sconto = " Tariffa Under-18"
-        } else if ( fascia == "maggiorenne") {
+        if ( fascia == "maggiorenne" ){
             prezzo = prezzo; 
             var sconto = "Tariffa Standard"
+        } else if ( fascia == "minorenne") {
+            prezzo = prezzo - prezzo * 0.2;
+            var sconto = " Tariffa Under-18"
         } else {
             prezzo = prezzo - prezzo * 0.4;
             var sconto = "Tariffa Over 65";
